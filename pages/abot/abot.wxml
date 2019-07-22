@@ -1,0 +1,27 @@
+<!--pages/abot/abot.wxml-->
+<text>信息1</text>
+<text id="{{id}}">信息2</text>
+<button bindtap="toggle">{{btnInfo}}</button>
+<view class="main">
+  <view class="area" wx:if="{{status}}">
+    {{info}}
+  </view>
+</view>
+<view wx:for="{{personList}}" wx:for-item="person">
+{{index}}--{{person.name}}--{{person.sex}}--{{person.age}}
+</view>
+
+
+<block wx:for="{{numList}}" wx:for-item="i">
+  <block wx:for="{{numList}}" wx:for-item="j">
+    <view wx:if="{{i <= j}}">
+      {{i}} * {{j}} = {{i*j}}
+    </view>
+  </block>
+</block>
+
+
+<button bindtap="addSwitch">添加</button>
+<block wx:for="{{switchList}}" wx:key="name">
+  {{item.name}}-<switch></switch>
+</block>

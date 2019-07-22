@@ -1,0 +1,7 @@
+/* pages/hypermarket/goodDedail/goodDedail.wxss */
+.goodView{
+  text-align: center
+}
+.goodImg{
+  width: 100%
+}

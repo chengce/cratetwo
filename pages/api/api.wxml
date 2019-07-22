@@ -1,0 +1,7 @@
+<!--pages/api/api.wxml-->
+<text>pages/api/api.wxml</text>
+<button bindtap="showToast">点击提示</button>
+<button bindtap="scanCode">扫一扫</button>
+
+<button bindtap="sortFn">排序</button>
+<view>{{values}}</view>

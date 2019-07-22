@@ -1,0 +1,8 @@
+<!--pages/myself/aboutOur/local/local.wxml-->
+<text>pages/myself/aboutOur/local/local.wxml</text>
+<button bindtap="getpage">local页面栈</button>
+<button bindtap="nav_toInfo">navigationTo跳页到公司信息</button>
+<button bindtap="redirect_toInfo">redirectTo跳页到公司信息</button>
+<button bindtap="switchTab_home">switchTab跳页到tabBat的home页</button>
+<button bindtap="reLaunch">reLaunch从定向</button>
+<button bindtap="back">navigateBack返回</button>

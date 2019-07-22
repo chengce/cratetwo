@@ -1,0 +1,26 @@
+<!--pages/myself/myself.wxml-->
+<!-- <text>pages/myself/myself.wxml</text> -->
+<view class="list-srea">
+  <block wx:for="{{myselfList}}" wx:key="title">
+    <view class="list-item" bindtap="aboutOurFn">
+      <image src="{{item.icon}}"></image>
+      <text>{{item.title}}</text>
+      <view class="list-item-btn"></view>
+    </view>
+  </block>
+  <button bindtap="getpage">myself页面栈</button>
+</view>
+
+<view style="width:300rpx;height:300rpx;border:1px solid red" hover-class="box">
+  <navigator
+  target="miniProgram"
+  open-type="exit"
+  hover-class="navigator-hover"
+  hover-stop-propagation="false"
+  hover-start-time="10"
+  hover-stay-time="200"
+  >组件跳转</navigator>
+</view>
+
+<!-- url="aboutOur/local/local" -->
+

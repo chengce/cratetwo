@@ -1,0 +1,19 @@
+<!--pages/hypermarket/hypermarket.wxml-->
+<!-- <text>pages/hypermarket/hypermarket.wxml</text> -->
+<view class="goodList">
+  <view 
+    wx:for="{{goods}}" 
+    wx:key="item.name" 
+    class="goodBox" 
+    data-item="{{item}}"
+    bindtap="goodDedail">
+
+    <navigator 
+      url="./goodDedail/goodDedail?name={{item.name}}&src={{item.imgsrc}}&price={{item.price}}">
+      <image src="{{item.imgsrc}}"></image>
+      <view>{{item.name}}--{{item.price}}</view>
+    </navigator>
+    
+  </view>
+</view>
+

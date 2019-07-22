@@ -1,0 +1,13 @@
+<!--pages/home/home.wxml-->
+<image src="https://timgsa.baidu.com/timg?image&quality=80&size=b10000_10000&sec=1562557833&di=dc2a03ef73009914d234366ece7e511d&src=http://hbimg.b0.upaiyun.com/00bc8151242c7d2460d0b7d4b913c6ed97f957cc158f9-SXd0Yk_fw658"></image>
+<text>这是主页</text>
+<map></map>
+<view hidden="{{textShow}}">hidden控制显隐1</view>
+<text hidden="{{textShow}}">hidden控制显隐2</text>
+
+<import src="../template/template.wxml" />
+<template is="publicTemplate" data="{{...item}}"></template>
+
+<button bindtap="prompt" data-name="二狗">按钮</button>
+<view style="width:100px;height:100px;background:red"></view>
+<view style="width:200rpx;height:200rpx;background:pink"></view>

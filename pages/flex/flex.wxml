@@ -1,0 +1,119 @@
+<!--pages/flex/flex.wxml-->
+<text>pages/flex/flex.wxml</text>
+
+<view class="list">
+  <view wx:for="{{TitleList}}">
+    <image src="{{item.src}}"></image>
+    <view>{{item.name}}</view>
+  </view>
+</view>
+
+
+<!-- flex练习 -->
+<view class="demo">
+  <view class="yi">
+    <view></view>
+  </view>
+  <view class="er">
+     <view></view>
+  </view>
+  <view class="san">
+     <view></view>
+  </view>
+  <view class="si">
+    <view></view>
+    <view></view>
+  </view>
+  <view class="wu">
+    <view></view>
+    <view></view>
+  </view>
+  <view class="liu">
+    <view></view>
+    <view></view>
+    <view></view>
+  </view>
+  <view class="qi">
+    <view class="block">
+      <view></view>
+      <view></view>
+    </view>
+    <view class="block">
+      <view></view>
+    </view>
+    <view class="block">
+      <view></view>
+      <view></view>
+    </view>
+  </view>
+  <view class="ba">
+    <view></view>
+  </view>
+  <view class="jiu">
+    <view></view>
+  </view>
+  <view class="shi">
+    <view></view>
+  </view>
+  <view class="shiyi">
+    <view></view>
+    <view></view>
+  </view>
+  <view class="shier">
+    <view></view>
+    <view></view>
+  </view>
+  <view class="shisan">
+    <view class="block">
+      <view></view>
+      <view></view>
+    </view>
+    <view class="block">
+      <view></view>
+      <view></view>
+    </view>
+  </view>
+  <view class="shisi">
+    <view></view>
+    <view></view>
+    <view></view>
+    <view></view>
+    <view></view>
+    <view></view>
+  </view>
+  <view class="shiwu">
+    <view></view>
+  </view>
+  <view class="shiliu">
+    <view></view>
+  </view>
+  <view class="shiqi">
+    <view></view>
+  </view>
+  <view class="shiba">
+    <view></view>
+    <view></view>
+  </view>
+  <view class="shijiu">
+    <view></view>
+    <view></view>
+  </view>
+  <view class="ershi">
+    <view></view>
+    <view></view>
+  </view>
+  <view class="ershiyi">
+    <view class="block">
+      <view></view>
+      <view></view>
+    </view>
+    <view class="block">
+      <view></view>
+    </view>
+    <view class="block">
+      <view></view>
+      <view></view>
+      <view></view>
+    </view>
+  </view>
+</view>

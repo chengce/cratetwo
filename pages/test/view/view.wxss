@@ -1,0 +1,20 @@
+/* pages/test/view/view.wxss */
+.banner-area{
+  width: 100%;
+  height: 360rpx;
+}
+.banner-area image{
+  width: 100%;
+  height: 100%;
+  display: block
+}
+.movableArea{
+  width: 100%;
+  height: 400rpx;
+  background: rgba(0, 0, 0, .3)
+}
+.movableView{
+  width: 40rpx;
+  height: 40rpx;
+  background: rgba(0, 0, 0, .6)
+}

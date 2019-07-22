@@ -1,0 +1,179 @@
+/* pages/flex/flex.wxss */
+.list>view{
+  background: rgba(0,0,0,0.1);
+  margin-top: 20rpx;
+  display: flex;
+  padding: 20rpx;
+  align-items: center
+}
+.list>view>image{
+  width: 150rpx;
+  height: 120rpx;
+  margin-right: 20rpx
+}
+
+
+
+/* flex练习 */
+.demo{
+  width: 100%;
+  display: flex;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  justify-content: space-between
+}
+.demo>view{
+  width: 100rpx;
+  height: 100rpx;
+  background: #ccc;
+  border-radius: 3px;
+  margin-top: 20rpx;
+  display: flex;
+}
+.demo>view>view{
+  width: 30rpx;
+  height: 30rpx;
+  background: white;
+  border-radius: 50%;
+}
+.yi{
+  justify-content: flex-start;
+}
+.er{
+  justify-content: center;
+}
+.san{
+  justify-content: flex-end;
+}
+.si{
+  justify-content: space-between;
+}
+.wu{
+  flex-direction: column;
+  justify-content: space-between;
+}
+.wu>view{
+  align-self:flex-end;
+}
+.liu{
+  flex-direction: column;
+  justify-content: space-between;
+}
+.liu>view:nth-of-type(2){
+  align-self: center;
+}
+.liu>view:nth-of-type(3){
+  align-self: flex-end;
+}
+.demo>.qi{
+  justify-content: space-between;
+  flex-direction: column;
+}
+.demo>.qi>.block{
+  width: 100%;
+  background: inherit;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: space-between
+}
+.demo>.qi>.block:nth-last-of-type(2){
+  justify-content: center
+}
+.demo>.qi>.block>view{
+  width: 30rpx;
+  height: 30rpx;
+  background: white;
+  border-radius: 50%;
+}
+
+
+
+.ba{
+  align-items: center;
+}
+.jiu{
+  align-items: center;
+  justify-content: center;
+}
+.shi{
+  align-items: center;
+  justify-content: flex-end;
+}
+.shiyi{
+  flex-direction: column;
+  justify-content: space-between
+}
+.shier{
+  justify-content: space-between;
+  align-items: flex-end
+}
+.demo>.shisan{
+  justify-content: space-between;
+}
+.demo>.shisan>.block{
+  height: 100rpx;
+  background: initial;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+.demo>.shisan>.block>view{
+  width: 30rpx;
+  height: 30rpx;
+  background: white;
+  border-radius: 50%;
+}
+.shisi{
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content:space-between; 
+}
+.shiwu{
+  align-items: flex-end
+}
+.shiliu{
+  align-items: flex-end;
+  justify-content: center
+}
+.shiqi{
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.shiba>view:nth-of-type(2){
+  align-self: center;
+}
+.shijiu{
+  justify-content: space-between
+}
+.shijiu>view:nth-of-type(2){
+  align-self: center;
+}
+.ershi{
+  justify-content: space-between
+}
+.ershi>view:nth-of-type(2){
+  align-self: flex-end;
+}
+.demo>.ershiyi{
+  justify-content: space-between;
+  flex-direction: column;
+}
+.demo>.ershiyi>.block{
+  width: 100%;
+  background: inherit;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: space-between
+}
+.demo>.ershiyi>.block:nth-last-of-type(2){
+  justify-content: center
+}
+.demo>.ershiyi>.block>view{
+  width: 30rpx;
+  height: 30rpx;
+  background: white;
+  border-radius: 50%;
+}

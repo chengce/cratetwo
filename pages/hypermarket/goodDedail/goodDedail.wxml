@@ -1,0 +1,5 @@
+<!--pages/hypermarket/goodDedail/goodDedail.wxml-->
+<!-- <text>pages/hypermarket/goodDedail/goodDedail.wxml</text> -->
+<image src="{{goodImg}}" class="goodImg"></image>
+<view class="goodView">{{goodName}}{{goodPrice}}元</view>
+

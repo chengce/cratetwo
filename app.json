@@ -1,0 +1,61 @@
+{
+  "pages": [
+    "pages/test/view/view",
+    "pages/test/test",
+    "pages/home/home",
+    "pages/hypermarket/hypermarket",
+    "pages/myself/myself",
+    "pages/api/api",
+    "pages/flex/flex",
+    "pages/abot/abot",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/template/template",
+    "pages/myself/aboutOur/aboutOur",
+    "pages/myself/aboutOur/local/local",
+    "pages/hypermarket/goodDedail/goodDedail"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#666",
+    "navigationBarTitleText": "叫了只炸鸡",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#ccc",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#dddfe2",
+    "selectedColor": "#2d78f4",
+    "backgroundColor": "#8a8d92",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home_selected.png"
+      },
+      {
+        "pagePath": "pages/hypermarket/hypermarket",
+        "text": "商城",
+        "iconPath": "images/shopping.png",
+        "selectedIconPath": "images/shopping_selected.png"
+      },
+      {
+        "pagePath": "pages/flex/flex",
+        "text": "订单",
+        "iconPath": "images/list.png",
+        "selectedIconPath": "images/list_selected.png"
+      },
+      {
+        "pagePath": "pages/myself/myself",
+        "text": "我的",
+        "iconPath": "images/user.png",
+        "selectedIconPath": "images/user_selected.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

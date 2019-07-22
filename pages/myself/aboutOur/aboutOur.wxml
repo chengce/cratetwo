@@ -1,0 +1,13 @@
+<!--pages/myself/aboutOur/aboutOur.wxml-->
+<!-- <text>pages/myself/aboutOur/aboutOur.wxml</text> -->
+<view class="list-srea">
+  <block wx:for="{{myselfList}}" wx:key="title">
+    <view class="list-item" hover-class="haverItem" bindtap="{{item.tap}}">
+      <text>{{item.title}}</text>
+      <view class="list-item-btn"></view>
+    </view>
+  </block>
+  <button bindtap="getpage">about页面栈</button>
+</view>
+<view class="areaTest" hidden="{{status}}"></view>
+<button bindtap="hideArea">切换显隐</button>

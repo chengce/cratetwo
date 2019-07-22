@@ -1,0 +1,38 @@
+<!--pages/test/view/view.wxml-->
+<!-- <text>pages/test/view/view.wxml</text> -->
+<view>滑块视图容器swiper和滑块swiper-item组件</view>
+<swiper 
+  class="banner-area" 
+  indicator-dots="{{dotsStatus}}"
+  indicator-color="{{dotsColor}}"
+  indicator-active-color="{{dotsActiveColor}}"
+  autoplay="{{autoplayValue}}"
+  interval="{{intervalValue}}"
+  duration="{{durationValue}}"
+  circular="{{circularValue}}"
+  vertical="{{verticalValue}}" 
+  current="{{currentValue}}"
+  previous-margin="{{previousMargin}}"
+  next-margin="{{nextMargin}}"
+  display-multiple-items="{{displayMultipleItems}}"
+  bindchange="bindchangeFn"
+  easing-function="{{easingFunction}}"
+  bindtransition="bindtransitionFn"
+  bindanimationfinish="bindanimationfinishFn">
+  <block wx:for="{{bannerList}}" wx:key="imgSrc">
+    <swiper-item item-id="{{index}}">
+      <image src="{{item.imgSrc}}"></image>
+    </swiper-item>
+  </block>
+</swiper>
+<view>scroll-view滚动区域</view>
+<movable-area class="movableArea">
+  <movable-view 
+    class="movableView"
+    direction="all"
+    inertia="true"
+    out-of-bounds="true"
+    friction="20"
+    >
+  </movable-view>
+</movable-area>

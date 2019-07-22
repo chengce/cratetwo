@@ -1,0 +1,8 @@
+<!--pages/template/template.wxml-->
+<text>pages/template/template.wxml</text>
+<template name="publicTemplate">
+  <view>
+    <text>{{showInfo}}</text>
+    <text>{{nowDate}}</text>
+  </view>
+</template>
